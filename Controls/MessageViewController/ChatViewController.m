@@ -54,6 +54,7 @@
     }
     
     [MobClick beginEvent:@"ChatViewController"];
+    
 }
 
 - (void)viewDidLoad {

@@ -12,6 +12,8 @@
 	<dict>
 		<key>26D9C5376C9A9B2D8952FD1D811D41E525832F7E</key>
 		<string>https://github.com/TeamOfFBAuto/CarNew1201.git</string>
+		<key>D83D86C472A37E37765E5DC5789C040E685196E3</key>
+		<string>github.com:TeamOfFBAuto/kuCheZhi64.git</string>
 		<key>FAF9B12E100D7728ACEB201EA2B5B78CC97099AD</key>
 		<string>https://github.com/TeamOfFBAuto/kuCheZhi.git</string>
 	</dict>
@@ -21,15 +23,17 @@
 	<dict>
 		<key>26D9C5376C9A9B2D8952FD1D811D41E525832F7E</key>
 		<string>../../CarNew1201</string>
-		<key>FAF9B12E100D7728ACEB201EA2B5B78CC97099AD</key>
+		<key>D83D86C472A37E37765E5DC5789C040E685196E3</key>
 		<string>..</string>
+		<key>FAF9B12E100D7728ACEB201EA2B5B78CC97099AD</key>
+		<string>../../kuCheZhi</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/TeamOfFBAuto/kuCheZhi.git</string>
+	<string>github.com:TeamOfFBAuto/kuCheZhi64.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FAF9B12E100D7728ACEB201EA2B5B78CC97099AD</string>
+	<string>D83D86C472A37E37765E5DC5789C040E685196E3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -47,6 +51,14 @@
 			<string>FAF9B12E100D7728ACEB201EA2B5B78CC97099AD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>kuCheZhi</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D83D86C472A37E37765E5DC5789C040E685196E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kuCheZhi64</string>
 		</dict>
 	</array>
 </dict>

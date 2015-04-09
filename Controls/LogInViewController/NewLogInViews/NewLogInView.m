@@ -907,7 +907,7 @@
 #pragma mark - 登陆成功保存用户信息
 -(void)saveUserInfomation
 {
-    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:USER_IN];
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:USER_IN];//记录登录成功信息
     
     NSDictionary *datainfo = [userInfo_dic objectForKey:@"datainfo"];
     NSString *userid = [datainfo objectForKey:@"uid"];

@@ -6,6 +6,10 @@
 //  Copyright (c) 2015年 FBLIFE. All rights reserved.
 //
 
+
+/**
+ *  会话列表
+ */
 #import <UIKit/UIKit.h>
 
 #import "RCChatListViewController.h"

@@ -52,6 +52,10 @@
 #define SINAAPPID @"3110194953"
 
 
+//酷车志 appid
+
+#define APPID_APPSTORE @"784258347"
+
 //百度
 #define BAIDU_APPKEY @"APMdmYcmGzQGBs3MUzr086Fk"
 
@@ -60,6 +64,7 @@
 @interface AppDelegate ()<MobClickDelegate,WXApiDelegate,RCIMConnectionStatusDelegate,RCConnectDelegate,RCIMReceiveMessageDelegate,RCIMUserInfoFetcherDelegagte,BMKGeneralDelegate,CLLocationManagerDelegate>
 {
     CLLocationManager    *location;
+    //酷车志
 }
 
 @property (strong, nonatomic) BMKMapManager *mapManager;
@@ -136,11 +141,12 @@
     
     //版本更新
     
-    [[LTools shareInstance]versionForAppid:@"950579792" Block:^(BOOL isNewVersion, NSString *updateUrl, NSString *updateContent) {
+    [[LTools shareInstance]versionForAppid:APPID_APPSTORE Block:^(BOOL isNewVersion, NSString *updateUrl, NSString *updateContent) {
         
         NSLog(@"updateContent %@ %@",updateUrl,updateContent);
         
     }];
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
